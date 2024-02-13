@@ -37,7 +37,7 @@ while True:
         
         if length <= 20:
             cv2.putText(img, "I     CPE!!", (lmList1[3][0]-50, lmList1[3][1]), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2, cv2.LINE_AA)
-            # cv2.putText(img, "I     YOU!!", (lmList2[3][0]-50, lmList2[3][1]), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2, cv2.LINE_AA)
+            # cv2.putText(img, "I     YOU!!", (lmList1[3][0]-50, lmList1[3][1]), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2, cv2.LINE_AA)
 
             img = cvzone.overlayPNG(img, heartPNG, pos=dim1)
 
