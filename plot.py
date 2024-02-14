@@ -3,7 +3,7 @@ from cvzone.FaceDetectionModule import FaceDetector
 import cv2
 import cvzone
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 detector = FaceDetector(minDetectionCon=0.85, modelSelection=0)
 
 xPlot = LivePlot(w=1200, yLimit=[0, 500], interval=0.01)

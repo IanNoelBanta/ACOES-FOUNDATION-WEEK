@@ -45,7 +45,7 @@ ageNet = cv2.dnn.readNet(ageModel,ageProto)
 genderNet = cv2.dnn.readNet(genderModel, genderProto)
 faceNet = cv2.dnn.readNet(faceModel, faceProto)
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 padding = 20
 timer = 0
 

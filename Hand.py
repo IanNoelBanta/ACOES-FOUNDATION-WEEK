@@ -3,7 +3,7 @@ from cvzone.HandTrackingModule import HandDetector
 import cv2
 import random
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 
 heartPNG = cv2.imread("heart2.png",cv2.IMREAD_UNCHANGED)
 timer = 0
